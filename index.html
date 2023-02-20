@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Formularios</title>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <title>Formularios</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="/style.css" />
-    </head>
-    <body>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Título principal</h1>
+      <p class="subtitulo-principal">Subtítulo</p>
+      <p>
+        Suspendisse ac arcu eget nulla efficitur maximus sit annet eu eros.
+        Aliquam fringilla id felis in firingilla. Donec facilissis suscripit
+        purus, eu dictum justo consquat a Se ruftrum ex quis condimentum gravida
+      </p>
+    </header>
+    <main>
+      <section>
+        <h2>Título sección</h2>
 
-    </body>
+        <img src="img/photo.jpg" alt="Mujer sonriendo" />
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem minima
+          corporis enim tempora pariatur officiis ipsam delectus fuga in aut
+          sed, quos, impedit dolorem optio, tempore nulla repellat sit quasi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          distinctio saepe nam quisquam! Eaque nulla rerum minus iste,
+          voluptatibus, soluta ipsum aspernatur odit ipsa cumque, adipisci optio
+          quia delectus ullam. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Earum recusandae eum quae, illo optio expedita velit
+          placeat
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          animi quos accusantium ratione tempore delectus quibusdam velit
+          suscipit molestiae ea sequi voluptas iste, quis, quidem quod, atque
+          quia. Maxime, at. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+        </p>
+      </section>
+      <section>
+        <h2>Formulario</h2>
+        <form action="#" class="formulario">
+          <ul>
+            <li>
+              <label for="name">Nombre</label>
+              <input type="text" id="name" required />
+            </li>
+            <li>
+              <label for="addres">Dirección</label>
+              <input type="text" id="addres" required />
+            </li>
+            <li>
+              <label for="comentarios">Comentarios</label>
+              <textarea
+                id="comentarios"
+                name="comentarios"
+                rows="10"
+              ></textarea>
+            </li>
+          </ul>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
