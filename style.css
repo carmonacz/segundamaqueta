@@ -8,7 +8,6 @@ html {
   --fondoPrimario: rgb(0, 0, 0);
   --textoPrincipal: rgb(255, 255, 255);
   --textoSecundario: rgb(128, 128, 128);
-  --colorOscuro: rgb(38, 44, 49);
   --grisOscuro: rgba(82, 84, 88, 0.5);
   --azulBoton: rgb(56, 96, 236);
 }
@@ -44,13 +43,12 @@ p:not(.subtitulo-principal) {
   font-size: 2rem;
 }
 
-/* CSS del main */
-
 main {
   width: 65%;
   max-width: 525px;
 }
 
+/* CSS del texto con imagen */
 section {
   padding-top: 1rem;
 }
@@ -61,6 +59,7 @@ h2 {
   padding-bottom: 0.75rem;
 }
 
+/* Muestra la línea debajo del h2 que ocupa el total de la pantalla */
 h2::after {
   content: "";
   position: absolute;
@@ -72,6 +71,7 @@ h2::after {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
+/* Muestra la imagen a la derecha del párrfo */
 img {
   width: 14rem;
   height: 14rem;
